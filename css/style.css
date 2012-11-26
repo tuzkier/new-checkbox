@@ -1,0 +1,37 @@
+
+.checkbox{
+	border:1px solid #ccc; 
+	height: 11px;
+	width:11px;
+	display: inline-block;
+	background-color:#fff;
+	opacity: 0.3;
+	-webkit-opacity: 0.3;
+	-moz-opacity: 0.3;
+	vertical-align: text-bottom;
+}
+.checkbox-content
+{
+	width:15px;
+	height: 15px;
+	position: relative;
+	top:-3px;
+	left:0px;
+}
+.checkbox-hot, .checkbox:hover{
+	opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	
+}
+.selected
+{
+	background-color:#fff;
+	background: url(../image/check_all.png) no-repeat -5px -3px;
+}
+.checkbox-content{width:14px; height:14px;}
+
+.selected-part
+{
+	background: url(../image/check_part.png) no-repeat -5px -3px;
+}
